@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 10px;
+    font-size: 30px;
+    margin: 40px 20px;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    /* background-color: red; */
+    
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.service li {
+    
+   margin: 0 20px; 
+   
+} 
+
+.service li a{
+    color: black;
+    font-size: 20px;
+}
+    
+
+
+.signin button {
+    width: 200px;
+    font-size: 20px;
+    color:white;
+    background-color: green;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+ .signin a {
+    font-size: 20px;
+ }
+.navbar .logo img{
+    width: 70px;
+}
+.bodyarea{
+    background-color:rgb(20,20,43);
+    display: flex;
+    width: 100%;
+    height: 650px;
+    gap: 50px;
+    padding-left: 45px;
+    margin-bottom: 80px;
+    
+    
+    
+    
+  
+
+}
+
+.bodyarea .textarea{
+    width: 50%;
+    margin-left: 30px;
+    
+    color: white;
+    
+    
+}
+
+.textarea h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-left: 30px; */
+}
+.textarea p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textarea button{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+    border-radius: 10px;
+}
+
+.textarea button a{
+    color: white;
+    font-size: 25px;
+}
+.textarea span{
+    color: green;
+}
+.bodyarea .boxarea{
+    width: 500px;
+    height: 350px;
+    background-color: azure;
+    color: white;
+    margin-top: 50px;
+       
+    border-radius: 20px;
+    
+}
+
+.textarea .app{
+    display: flex;
+    gap: 50px;
+}
+.app .button .img{
+    width: 300px;
+}
+
+
+.bodyarea .boxarea img{
+    width:70px;
+    margin-left: 50px auto; 
+    
+    
+    
+    
+}
+
+.scroll img{
+    width: 35px;
+    margin-left: 700px;
+    margin-top: 60px;
+
+     
+}
+    .phone{
+        width: 100%;
+        height: 650px;
+         margin-top: 80px;
+         background-color: white;
+    }
+
+.phone-type{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+    margin: 100px 300px;
+
+
+}
+.phone img{
+    width: 100px;
+        
+
+}
+
+.phone h1{
+    /* margin: 50px auto; */
+    text-align: center;
+    width: 50%;
+
+}
+
+.phone .phone-type p{
+    
+    
+    
+}
+
+.manage-port{
+    margin-top: 80px;
+}
+
+.invest{
+    width: 100%;
+    /* height: 650px; */
+    background-color:rgb(229,246,234) ;
+    padding-bottom: 100px;
+    
+}
+
+.invest .top-text{
+    
+   
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 70px;
+         
+    color: black;
+
+}
+
+.invest h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 60px;
+}
+.box h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+  
+}
+ 
+.invest .manage-port{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+   }
+
+.invest .box{
+    width: 450px;
+    height: 450px;
+    background-color: whitesmoke;
+    color: blue;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.box p{
+    padding: 30px;
+    margin-top: 10px;
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+.testmonial-wrap{
+    width: 100%;
+    background-color: green;
+}
+.testimonial-text{
+    width: 100%;
+    
+    
+
+}
+
+testimonial-text .textmsg{
+    
+}
+
+.testimonial-text .textmsg h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 200;
+    
+}
+
+
+.testmonial-container{
+    display: flex;
+}
+testimonial-container .testmonial{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    
+    
+
+}
+
+.
